@@ -26,5 +26,5 @@ function partidas(vitorias, derrotas){
     else if(resultado >= 101){
         ranking = "imortal"
 }
-console.log("O herói tem de saldo" + resultado + ("Está no nivel" + ranking))
+console.log("O herói tem de saldo " + resultado + (" Está no nivel " + ranking))
 }
