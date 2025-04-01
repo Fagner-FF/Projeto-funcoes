@@ -23,7 +23,7 @@ function partidas(vitorias, derrotas){
     else if(resultado >= 91 && resultado <= 100){
         ranking = "Lendário"
 }
-    else if(resultado >= 101){
+    else{
         ranking = "imortal"
 }
 console.log("O herói tem de saldo " + resultado + (" Está no nivel " + ranking))
